@@ -1,0 +1,570 @@
+@media (max-width:990px) {
+
+
+    /*=========================================================================================================================
+                                                          card2
+=========================================================================================================================== */
+
+
+    #our-team-text {
+        padding: 50px 25px;
+    }
+
+    #our-team-text p {
+        width: auto;
+    }
+
+    #our-team-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .cards-second {
+        padding: 0 2%;
+        display: block;
+    }
+
+    .card-second {
+        height: 95vh;
+        width: auto;
+        margin-bottom: 13px;
+    }
+
+    .card-second-top {
+        height: 65%;
+    }
+
+    .card-second-bottom {
+        height: 35%;
+    }
+
+
+
+
+
+    /*=========================================================================================================================
+                                                          our-specialities
+=========================================================================================================================== */
+
+    .cards {
+        gap: 0;
+    }
+
+    .card {
+        padding: 0 15px;
+    }
+
+    .our-specialities::before {
+        margin-top: -17vw;
+    }
+
+    .our-specialities>h3 {
+        margin-top: 11vw;
+    }
+
+
+    /*=========================================================================================================================
+                                                          footer
+=========================================================================================================================== */
+
+
+
+    .foote-pop-up-info h4 {
+        font-size: 1.7vw;
+    }
+
+    .foote-pop-up-info h2 {
+        font-size: 2vw;
+    }
+
+    .foote-pop-up-info::after {
+        right: -35%;
+    }
+
+    .footer-bottom-top-prt2,
+    .footer-bottom-top-prt3 {
+        margin-left: 10vw;
+    }
+
+    .footer-bottom-top h1 {
+        font-size: 2.7vw;
+
+    }
+
+
+
+
+    /*=========================================================================================================================
+                                                          about-us
+=========================================================================================================================== */
+
+
+    .about-info-txt h1 {
+        font-size: 35px;
+    }
+
+    .about-info-txt p {
+        width: 85%;
+    }
+
+    .about-info-pic {
+        flex-direction: column;
+    }
+
+    .about-info-pic1,
+    .about-info-pic2 {
+        width: 85%;
+    }
+
+    .about-info-txt2 h1 {
+        font-size: 30px;
+        margin-bottom: 3vw;
+    }
+
+    .why-choose-us h1 {
+        font-size: 35px;
+    }
+
+    .why-choose-us-info {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .why-choose-us-info-left {
+        height: 35vh;
+        width: 85%;
+        margin-bottom: 4vw;
+    }
+
+    .why-choose-us-info-right {
+        width: 85%;
+    }
+
+    .why-choose-us-info-right p {
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+
+
+
+    /*=========================================================================================================================
+                                                          about-us
+=========================================================================================================================== */
+
+    .videos h1 {
+        font-size: 28px;
+    }
+
+    .videoA,
+    .videoB {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*=========================================================================================================================
+                                                         our batches
+=========================================================================================================================== */
+
+
+    .our-batches>h1 {
+        font-size: 28px;
+    }
+
+    .b-cards {
+        flex-direction: column;
+    }
+
+    .b-card {
+        padding: 11vw 0vw 0vw 5vw;
+    }
+
+
+
+    /*=========================================================================================================================
+                                                         saturday
+=========================================================================================================================== */
+
+
+#saturday h3 {
+    font-size: 22px;
+    margin: 35px 0px;
+}
+
+.count-down {
+    top: 68%;
+    transform: translate(-50%, -50%);
+    left: 35%;
+}
+
+.count-down h1 {
+    padding-left: 10px;
+}
+
+#saturday>h1 {
+    margin-bottom: 30px;
+}
+
+
+}
+
+@media (max-width:700px) {
+
+    /*=========================================================================================================================
+                                                         nav
+=========================================================================================================================== */
+
+
+    #nav-menu {
+        display: flex;
+        position: absolute;
+    }
+
+
+    #home #nav {
+        height: 0vh;
+        overflow: hidden;
+        transition: all ease 1s;
+        z-index: 9999;
+    }
+
+    #nav2 #nav {
+        height: 0vh;
+        overflow: hidden;
+        transition: all ease 1s;
+        z-index: 99999;
+    }
+
+    #nav2 {
+        min-height: 0vh;
+        z-index: 99999;
+    }
+
+    #nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav ul li {
+        margin-bottom: 69px;
+        margin-right: 3vw;
+    }
+
+    #nav a {
+        font-size: 18px;
+    }
+
+
+
+
+    /*=========================================================================================================================
+                                                         home-page
+=========================================================================================================================== */
+
+    #home {
+        min-height: 60vh;
+    }
+
+    #home-page {
+        background-position-x: 46%;
+        height: 75vh;
+    }
+
+    .home-page-left-text {
+        top: 50%;
+        width: 100%;
+        left: 55%;
+    }
+
+    .home-page-left {
+        width: 90%;
+    }
+
+    .home-page-right {
+        width: 10%;
+
+    }
+
+    /*=========================================================================================================================
+                                                          our-specialities
+=========================================================================================================================== */
+
+    .our-specialities::before {
+        margin-top: -20vw;
+    }
+
+    .our-specialities h1 {
+        font-size: 28px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 212vh;
+    }
+
+    .card {
+        width: auto;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card::before {
+        display: none;
+    }
+
+
+    /*=========================================================================================================================
+                                                       testimonial
+=========================================================================================================================== */
+
+
+    #testimonial {
+        height: 70vh;
+    }
+
+    .swiper>h1 {
+        font-size: 30px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+
+
+    /*=========================================================================================================================
+                                                       footer
+=========================================================================================================================== */
+
+
+    .footer-pop-up {
+        width: 100%;
+    }
+
+    .foote-pop-up-info h4 {
+        font-size: 18px;
+    }
+
+    .foote-pop-up-info h2 {
+        font-size: 13px;
+    }
+
+    .foote-pop-up-info::after {
+        right: -13%;
+    }
+
+    .footer-bottom-top {
+        margin-left: -3vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+    .footer-bottom {
+        height: 100vh;
+    }
+
+    .footer-bottom-bottom {
+        margin-top: 65vw;
+        height: 10vh;
+    }
+
+
+    .footer-bottom-top-prt1 {
+        width: 90vw;
+        align-items: flex-start;
+        margin-left: 10vw;
+        margin-bottom: 9vw;
+        margin-top: 20vw;
+    }
+
+    .footer-bottom-top h1 {
+        font-size: 26px;
+    }
+
+    .footer-bottom-top-prt2 ul li a,
+    .footer-bottom-top-prt3 ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom-top-prt2,
+    .footer-bottom-top-prt3 {
+        margin-bottom: 6vw;
+        width: 90vw;
+    }
+
+    #copyright {
+        top: 95%;
+        margin-left: 9vw;
+    }
+
+
+
+       /*=========================================================================================================================
+                                                         saturday
+=========================================================================================================================== */
+
+#saturday {
+    padding: 50px 0px 0px 16px;
+}
+
+
+.count-down h1 {
+    font-size: 15px;
+}
+
+
+
+}
+
+@media (max-width:470px) {
+
+    /*=========================================================================================================================
+                                                          cards2
+=========================================================================================================================== */
+
+    .card-second {
+        height: 80vh;
+    }
+
+    .card-second-top {
+        height: 50%;
+    }
+
+    .card-second-bottom {
+        height: 50%;
+    }
+
+    /*=========================================================================================================================
+                                                          our-specialities
+=========================================================================================================================== */
+
+    .our-specialities>h3 {
+        margin-top: 29vw;
+    }
+
+
+    /*=========================================================================================================================
+                                                          footer
+=========================================================================================================================== */
+
+    .footer-pop-up {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0 27px;
+    }
+
+    .foote-pop-up-info::after {
+        display: none;
+    }
+
+
+    /*=========================================================================================================================
+                                                          abouit-us
+=========================================================================================================================== */
+
+
+    .about-home h1 {
+        font-size: 28px;
+    }
+
+    .about-home h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-info-txt h1 {
+        font-size: 28px;
+    }
+
+
+    .about-info-pic1,
+    .about-info-pic2 {
+        height: 35vh;
+    }
+
+    .about-info-txt2 h1 {
+        font-size: 26px;
+    }
+
+
+    .about-info-txt2 p {
+        width: 85%;
+    }
+
+    .why-choose-us-info-left {
+        min-height: 35vh;
+        width: 90%;
+    }
+
+
+    /*=========================================================================================================================
+                                                         our batches
+=========================================================================================================================== */
+
+    .b-card {
+        width: 90vw;
+        height: 50vh;
+        padding: 7vw 0vw 0vw 14vw;
+    }
+
+    .b-card a {
+        padding: 13px 63px;
+    }
+
+
+/*=========================================================================================================================
+                                                         saturday
+=========================================================================================================================== */
+
+
+#saturday h3 {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+#saturday>h1 {
+    font-size: 31px;
+}
+
+#saturday h2 {
+    font-size: 18px;
+}
+
+.count-down {
+    left: 50%;
+    width: 100vw;
+    top: 60%;
+}
+
+.count-down h1 {
+    font-size: 12px;
+}
+
+.video {
+    height: 50vh;
+    width: 90vw;
+}
+.video-section {
+    align-items: center;
+    min-height: 55vh;
+}
+
+
+
+#loader h1 {
+    font-size: 28px;
+}
+
+
+}
