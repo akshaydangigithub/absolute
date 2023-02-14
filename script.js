@@ -228,7 +228,7 @@ function Navigation() {
             line1.style.transform = "rotate(45deg)"
             line2.style.positon = "absolute"
             line2.style.transform = "rotate(-45deg)"
-            nav.style.height = "80vh"
+            nav.style.height = "100vh"
             flag = 1
         }
         else {
