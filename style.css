@@ -734,7 +734,7 @@ body {
 
 .footer-bottom {
     position: relative;
-    height: 60vh;
+    /* height: 60vh; */
     width: 100%;
     background-color: black;
 }
