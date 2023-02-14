@@ -328,7 +328,7 @@
 
 
     #testimonial {
-        height: 70vh;
+        height: 80vh;
     }
 
     .swiper>h1 {
@@ -371,7 +371,7 @@
 
 
     .footer-bottom {
-        height: 100vh;
+        min-height: 95vh;
     }
 
     .footer-bottom-bottom {
@@ -404,7 +404,7 @@
     }
 
     #copyright {
-        top: 95%;
+        top: 97%;
         margin-left: 9vw;
     }
 
@@ -491,6 +491,7 @@
     .about-info-pic1,
     .about-info-pic2 {
         height: 35vh;
+        margin-bottom: 12px;
     }
 
     .about-info-txt2 h1 {
@@ -514,7 +515,7 @@
 
     .b-card {
         width: 90vw;
-        height: 50vh;
+        height: 370px;
         padding: 7vw 0vw 0vw 14vw;
     }
 
@@ -545,10 +546,14 @@
     left: 50%;
     width: 100vw;
     top: 60%;
+    transform: translate(-50%,0);
 }
+
+
 
 .count-down h1 {
     font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .video {
@@ -566,5 +571,9 @@
     font-size: 28px;
 }
 
+
+}
+
+@media (min-height:586px){
 
 }
